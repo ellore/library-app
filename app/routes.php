@@ -11,14 +11,14 @@
 |
 */
 /*****************************************     UserController     *****************************************************/
-Route::get('home', ['as' => 'home', 'uses' => 'UserController@home']);
-Route::get('accounts', ['as' => 'accounts', 'uses' => 'UserController@accounts']);
-Route::get('wish_list', ['as' => 'wish_list', 'uses' => 'UserController@wish_list']);
-Route::get('queued_books', ['as' => 'queued_books', 'uses' => 'UserController@queued_books']);
-Route::get('contacts', ['as' => 'contacts', 'uses' => 'UserController@contacts']);
-Route::get('lost_book', ['as' => 'lost_book', 'uses' => 'UserController@lost_book']);
-Route::get('donate_book', ['as' => 'donate_book', 'uses' => 'UserController@donate_book']);
-Route::get('login', ['as' => 'login', 'uses' => 'UserController@login']);
+Route::get('home', ['as' => 'user_home', 'uses' => 'UserController@home']);
+Route::get('accounts', ['as' => 'user_accounts', 'uses' => 'UserController@accounts']);
+Route::get('wish_list', ['as' => 'user_wish_list', 'uses' => 'UserController@wish_list']);
+Route::get('queued_books', ['as' => 'user_queued_books', 'uses' => 'UserController@queued_books']);
+Route::get('contacts', ['as' => 'user_contacts', 'uses' => 'UserController@contacts']);
+Route::get('lost_book', ['as' => 'user_lost_book', 'uses' => 'UserController@lost_book']);
+Route::get('donate_book', ['as' => 'user_donate_book', 'uses' => 'UserController@donate_book']);
+Route::get('login', ['as' => 'user_login', 'uses' => 'UserController@login']);
 /**********************************************************************************************************************/
 
 /*AdminController*/
